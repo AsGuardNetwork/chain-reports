@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:cffd7fa2-3d05-413e-b33a-bbe6685ae01f",
+  "serialNumber": "urn:uuid:5df08697-4524-4f95-898f-5edb015b4e64",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-08T07:45:52+00:00",
+    "timestamp": "2023-02-14T12:01:51+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.37.1"
+        "version": "0.37.2"
       }
     ],
     "component": {
-      "bom-ref": "e720aa75-7ee6-4936-8a33-914618a84c25",
+      "bom-ref": "44beecd0-fdf3-4d30-99ee-1eb1ffe952ac",
       "type": "container",
       "name": "nomic_v3",
       "properties": [
@@ -23,11 +23,11 @@
         },
         {
           "name": "aquasecurity:trivy:ImageID",
-          "value": "sha256:7a8df60db8813f9d24984fa45b267e5448b16c1b845401b3c6ff64887b3130a9"
+          "value": "sha256:ea40a87a7cf69bb3f01646f8f9ce6c464a73c2d1f5dbe14a0c6a2350cbb54b9a"
         },
         {
           "name": "aquasecurity:trivy:DiffID",
-          "value": "sha256:c0f435857693fb53bd04e725e95a80e15e6d217cc5a55a92050110c255a52e2b"
+          "value": "sha256:173c44b5850dbb77b7b6768716cde3c3cd03dfdf10b94956f8c2e8a7d1fa44fb"
         }
       ]
     }
@@ -35,7 +35,7 @@
   "components": null,
   "dependencies": [
     {
-      "ref": "e720aa75-7ee6-4936-8a33-914618a84c25",
+      "ref": "44beecd0-fdf3-4d30-99ee-1eb1ffe952ac",
       "dependsOn": null
     }
   ],
