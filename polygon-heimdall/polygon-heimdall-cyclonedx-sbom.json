@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:15db66bb-af94-4f3b-8c2e-68b11369dc2d",
+  "serialNumber": "urn:uuid:a6bad84f-9a42-45df-89e2-1648a0177612",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-14T12:21:27+00:00",
+    "timestamp": "2023-02-15T07:36:55+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.37.2"
+        "version": "0.37.3"
       }
     ],
     "component": {
-      "bom-ref": "f2f5e94e-0e83-47bf-9dcd-b66bb4e288ec",
+      "bom-ref": "05293780-c015-47f5-8b98-4cdfc99bdee7",
       "type": "container",
       "name": "polygon-heimdall_v0.3.0",
       "properties": [
@@ -2432,7 +2432,7 @@
       ]
     },
     {
-      "bom-ref": "53d987f2-0e91-4468-9d83-da6932d47d61",
+      "bom-ref": "7aa421c2-fd59-4ca6-87c7-7f59ef66afd5",
       "type": "application",
       "name": "bin/heimdalld",
       "properties": [
@@ -2468,7 +2468,7 @@
       ]
     },
     {
-      "bom-ref": "b98dfe88-4088-4b27-8b1f-08304d67871b",
+      "bom-ref": "94ea3ae2-a2d9-4a0f-b065-b9af46a2834d",
       "type": "application",
       "name": "bin/heimdallcli",
       "properties": [
@@ -2485,7 +2485,7 @@
   ],
   "dependencies": [
     {
-      "ref": "53d987f2-0e91-4468-9d83-da6932d47d61",
+      "ref": "7aa421c2-fd59-4ca6-87c7-7f59ef66afd5",
       "dependsOn": [
         "pkg:golang/cloud.google.com/go@v0.65.0",
         "pkg:golang/cloud.google.com/go/pubsub@v1.3.1",
@@ -2604,7 +2604,7 @@
       ]
     },
     {
-      "ref": "b98dfe88-4088-4b27-8b1f-08304d67871b",
+      "ref": "94ea3ae2-a2d9-4a0f-b065-b9af46a2834d",
       "dependsOn": [
         "pkg:golang/github.com/richardknop/logging@v0.0.0-20190827224416-1a693bdd4fae",
         "pkg:golang/github.com/richardknop/machinery@v1.7.4",
@@ -2702,10 +2702,10 @@
       ]
     },
     {
-      "ref": "f2f5e94e-0e83-47bf-9dcd-b66bb4e288ec",
+      "ref": "05293780-c015-47f5-8b98-4cdfc99bdee7",
       "dependsOn": [
-        "53d987f2-0e91-4468-9d83-da6932d47d61",
-        "b98dfe88-4088-4b27-8b1f-08304d67871b"
+        "7aa421c2-fd59-4ca6-87c7-7f59ef66afd5",
+        "94ea3ae2-a2d9-4a0f-b065-b9af46a2834d"
       ]
     }
   ],
