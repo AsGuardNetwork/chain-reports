@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:2676deae-71fb-4738-8773-fb9138048794",
+  "serialNumber": "urn:uuid:6553cf56-3fda-4a42-92ec-2ab7b972f023",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-14T11:16:07+00:00",
+    "timestamp": "2023-02-15T07:54:59+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.37.2"
+        "version": "0.37.3"
       }
     ],
     "component": {
-      "bom-ref": "30b2a46f-f1ad-4160-97f4-38e460a106b8",
+      "bom-ref": "8a5ed668-308a-409d-9d7d-88ef74d7e2d3",
       "type": "container",
       "name": "emoney_v1.2.0",
       "properties": [
@@ -1924,7 +1924,7 @@
       ]
     },
     {
-      "bom-ref": "6d92687c-4597-4fe0-ad52-aad7173e172d",
+      "bom-ref": "92efb049-b0ef-4801-b58b-968852598a04",
       "type": "application",
       "name": "bin/emd",
       "properties": [
@@ -1941,7 +1941,7 @@
   ],
   "dependencies": [
     {
-      "ref": "6d92687c-4597-4fe0-ad52-aad7173e172d",
+      "ref": "92efb049-b0ef-4801-b58b-968852598a04",
       "dependsOn": [
         "pkg:golang/./ics23@%28devel%29",
         "pkg:golang/github.com/99designs/keyring@v1.1.6",
@@ -2036,9 +2036,9 @@
       ]
     },
     {
-      "ref": "30b2a46f-f1ad-4160-97f4-38e460a106b8",
+      "ref": "8a5ed668-308a-409d-9d7d-88ef74d7e2d3",
       "dependsOn": [
-        "6d92687c-4597-4fe0-ad52-aad7173e172d"
+        "92efb049-b0ef-4801-b58b-968852598a04"
       ]
     }
   ],
