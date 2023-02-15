@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:02eca80e-9bff-44a6-82fe-8e0bc1fa2286",
+  "serialNumber": "urn:uuid:f0d2d3ff-c2ff-4d8b-ba5d-9b950996b614",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-14T09:47:41+00:00",
+    "timestamp": "2023-02-15T07:44:53+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.37.2"
+        "version": "0.37.3"
       }
     ],
     "component": {
-      "bom-ref": "41039a18-a35e-40e1-b85a-8d40e5d9e85d",
+      "bom-ref": "0d3d991b-fa64-4f98-b56e-0b3d001c96b4",
       "type": "container",
       "name": "axelar_v0.31.3",
       "properties": [
@@ -2386,7 +2386,7 @@
       ]
     },
     {
-      "bom-ref": "fd4f4edd-ae7e-4c98-9e76-de50ae29bf10",
+      "bom-ref": "85744518-8e47-4f55-afc4-b987987e3dae",
       "type": "application",
       "name": "bin/axelard",
       "properties": [
@@ -2403,7 +2403,7 @@
   ],
   "dependencies": [
     {
-      "ref": "fd4f4edd-ae7e-4c98-9e76-de50ae29bf10",
+      "ref": "85744518-8e47-4f55-afc4-b987987e3dae",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-beta.2",
         "pkg:golang/github.com/99designs/keyring@v1.1.6",
@@ -2520,9 +2520,9 @@
       ]
     },
     {
-      "ref": "41039a18-a35e-40e1-b85a-8d40e5d9e85d",
+      "ref": "0d3d991b-fa64-4f98-b56e-0b3d001c96b4",
       "dependsOn": [
-        "fd4f4edd-ae7e-4c98-9e76-de50ae29bf10"
+        "85744518-8e47-4f55-afc4-b987987e3dae"
       ]
     }
   ],
