@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:4400a901-3bd6-4f7e-bf63-3be8713142c2",
+  "serialNumber": "urn:uuid:4986a1fb-1ce9-4932-9e41-0f02f0940941",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-14T09:36:04+00:00",
+    "timestamp": "2023-02-15T07:37:26+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.37.2"
+        "version": "0.37.3"
       }
     ],
     "component": {
-      "bom-ref": "1773a091-42d4-42f9-8273-a45fd6a1c364",
+      "bom-ref": "06c35937-863a-44df-a03e-8ea7b116024d",
       "type": "container",
       "name": "althea_v0.3.2",
       "properties": [
@@ -2680,7 +2680,7 @@
       ]
     },
     {
-      "bom-ref": "546204b1-ab3f-45d3-8e9f-50d2db3e9c33",
+      "bom-ref": "b9fb97dc-1e5e-4e34-af1d-7445045124c7",
       "type": "application",
       "name": "bin/althea",
       "properties": [
@@ -2697,7 +2697,7 @@
   ],
   "dependencies": [
     {
-      "ref": "546204b1-ab3f-45d3-8e9f-50d2db3e9c33",
+      "ref": "b9fb97dc-1e5e-4e34-af1d-7445045124c7",
       "dependsOn": [
         "pkg:golang/cosmossdk.io/math@v1.0.0-beta.4",
         "pkg:golang/filippo.io/edwards25519@v1.0.0-rc.1",
@@ -2828,9 +2828,9 @@
       ]
     },
     {
-      "ref": "1773a091-42d4-42f9-8273-a45fd6a1c364",
+      "ref": "06c35937-863a-44df-a03e-8ea7b116024d",
       "dependsOn": [
-        "546204b1-ab3f-45d3-8e9f-50d2db3e9c33"
+        "b9fb97dc-1e5e-4e34-af1d-7445045124c7"
       ]
     }
   ],
