@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:a8574f5d-4f3a-4f19-84b8-12528392ef62",
+  "serialNumber": "urn:uuid:c1931b9f-eb37-470d-8ade-5a94c7689a8d",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-14T11:19:16+00:00",
+    "timestamp": "2023-02-15T07:44:03+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.37.2"
+        "version": "0.37.3"
       }
     ],
     "component": {
-      "bom-ref": "1f80801b-3bf9-4742-b480-3bd85d7782e8",
+      "bom-ref": "e0f7c3df-11f3-4b38-8aee-9986cbb5200f",
       "type": "container",
       "name": "evmos_v11.0.2",
       "properties": [
@@ -3352,7 +3352,7 @@
       ]
     },
     {
-      "bom-ref": "a224a467-84b4-4fa9-9913-f26e8a28c557",
+      "bom-ref": "a127ffca-c8b2-4a58-aec8-a096418bb9e7",
       "type": "application",
       "name": "bin/evmosd",
       "properties": [
@@ -3369,7 +3369,7 @@
   ],
   "dependencies": [
     {
-      "ref": "a224a467-84b4-4fa9-9913-f26e8a28c557",
+      "ref": "a127ffca-c8b2-4a58-aec8-a096418bb9e7",
       "dependsOn": [
         "pkg:golang/cloud.google.com/go@v0.105.0",
         "pkg:golang/cloud.google.com/go/compute/metadata@v0.2.1",
@@ -3532,9 +3532,9 @@
       ]
     },
     {
-      "ref": "1f80801b-3bf9-4742-b480-3bd85d7782e8",
+      "ref": "e0f7c3df-11f3-4b38-8aee-9986cbb5200f",
       "dependsOn": [
-        "a224a467-84b4-4fa9-9913-f26e8a28c557"
+        "a127ffca-c8b2-4a58-aec8-a096418bb9e7"
       ]
     }
   ],
