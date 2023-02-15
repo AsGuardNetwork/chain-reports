@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:86773fa1-d440-4977-bac9-0ff0b8604992",
+  "serialNumber": "urn:uuid:f0a4cf1d-6160-4d91-8b16-606d2d72ccd7",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-14T10:28:37+00:00",
+    "timestamp": "2023-02-15T07:40:29+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.37.2"
+        "version": "0.37.3"
       }
     ],
     "component": {
-      "bom-ref": "5a55c6b0-b055-4f93-ad35-745912ce415c",
+      "bom-ref": "058e2d7b-ac44-4658-982b-257948685db0",
       "type": "container",
       "name": "bostrom_v0.3.2",
       "properties": [
@@ -2365,7 +2365,7 @@
       ]
     },
     {
-      "bom-ref": "fafa1d4d-473a-49e8-b58d-877a47b4f844",
+      "bom-ref": "0992f4fa-5a8a-4cec-8b0f-9eef9b05953b",
       "type": "application",
       "name": "bin/cyber",
       "properties": [
@@ -2382,7 +2382,7 @@
   ],
   "dependencies": [
     {
-      "ref": "fafa1d4d-473a-49e8-b58d-877a47b4f844",
+      "ref": "0992f4fa-5a8a-4cec-8b0f-9eef9b05953b",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-beta.2",
         "pkg:golang/github.com/99designs/keyring@v1.1.6",
@@ -2498,9 +2498,9 @@
       ]
     },
     {
-      "ref": "5a55c6b0-b055-4f93-ad35-745912ce415c",
+      "ref": "058e2d7b-ac44-4658-982b-257948685db0",
       "dependsOn": [
-        "fafa1d4d-473a-49e8-b58d-877a47b4f844"
+        "0992f4fa-5a8a-4cec-8b0f-9eef9b05953b"
       ]
     }
   ],
