@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:03ba3779-d0fd-450c-a946-f3464eb651a3",
+  "serialNumber": "urn:uuid:66764feb-084c-4ea0-9c5f-6eab095862a7",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-14T09:38:35+00:00",
+    "timestamp": "2023-02-15T08:03:43+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.37.2"
+        "version": "0.37.3"
       }
     ],
     "component": {
-      "bom-ref": "3235f548-cfdb-43b8-bb43-606847b9444b",
+      "bom-ref": "a97006f7-6f26-4a70-a1e4-19dbef600974",
       "type": "container",
       "name": "acrechain_v1.1.1",
       "properties": [
@@ -2659,7 +2659,7 @@
       ]
     },
     {
-      "bom-ref": "f24de5dd-600c-4527-b37e-f0605212280d",
+      "bom-ref": "ec7a18f1-7932-4887-a8fa-03ee74f88e6b",
       "type": "application",
       "name": "bin/acred",
       "properties": [
@@ -2676,7 +2676,7 @@
   ],
   "dependencies": [
     {
-      "ref": "f24de5dd-600c-4527-b37e-f0605212280d",
+      "ref": "ec7a18f1-7932-4887-a8fa-03ee74f88e6b",
       "dependsOn": [
         "pkg:golang/cosmossdk.io/math@v1.0.0-beta.3",
         "pkg:golang/filippo.io/edwards25519@v1.0.0-beta.2",
@@ -2806,9 +2806,9 @@
       ]
     },
     {
-      "ref": "3235f548-cfdb-43b8-bb43-606847b9444b",
+      "ref": "a97006f7-6f26-4a70-a1e4-19dbef600974",
       "dependsOn": [
-        "f24de5dd-600c-4527-b37e-f0605212280d"
+        "ec7a18f1-7932-4887-a8fa-03ee74f88e6b"
       ]
     }
   ],
