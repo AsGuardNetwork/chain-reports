@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:32e4288b-694d-44ab-b6f7-2e91a155e79a",
+  "serialNumber": "urn:uuid:19859b0e-4346-4f4a-a2db-014ee30c49b5",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-14T12:18:57+00:00",
+    "timestamp": "2023-02-15T07:53:29+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.37.2"
+        "version": "0.37.3"
       }
     ],
     "component": {
-      "bom-ref": "c09f2b84-71d8-40dc-85af-7e4b0582fd94",
+      "bom-ref": "15bf024b-5ca7-4bcb-81a6-67d0ebc215e6",
       "type": "container",
       "name": "polygon-geth_v0.3.3",
       "properties": [
@@ -1462,7 +1462,7 @@
       ]
     },
     {
-      "bom-ref": "0f80910d-2060-4024-aff8-803bc58949fe",
+      "bom-ref": "51b022a3-39e7-4f2c-9bec-ce8b2386bdb7",
       "type": "application",
       "name": "bin/geth",
       "properties": [
@@ -1479,7 +1479,7 @@
   ],
   "dependencies": [
     {
-      "ref": "0f80910d-2060-4024-aff8-803bc58949fe",
+      "ref": "51b022a3-39e7-4f2c-9bec-ce8b2386bdb7",
       "dependsOn": [
         "pkg:golang/github.com/burntsushi/toml@v1.1.0",
         "pkg:golang/github.com/victoriametrics/fastcache@v1.6.0",
@@ -1552,9 +1552,9 @@
       ]
     },
     {
-      "ref": "c09f2b84-71d8-40dc-85af-7e4b0582fd94",
+      "ref": "15bf024b-5ca7-4bcb-81a6-67d0ebc215e6",
       "dependsOn": [
-        "0f80910d-2060-4024-aff8-803bc58949fe"
+        "51b022a3-39e7-4f2c-9bec-ce8b2386bdb7"
       ]
     }
   ],
