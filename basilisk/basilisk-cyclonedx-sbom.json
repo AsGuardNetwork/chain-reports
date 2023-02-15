@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:ef4ea8f8-c88e-4ad2-a36a-575b1001e59f",
+  "serialNumber": "urn:uuid:2169e75c-e04f-4df0-bbc6-3aee37ca42a8",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-14T10:23:23+00:00",
+    "timestamp": "2023-02-15T07:45:55+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.37.2"
+        "version": "0.37.3"
       }
     ],
     "component": {
-      "bom-ref": "d38d85c9-47d1-42ee-b54b-b3fcc7f45695",
+      "bom-ref": "d56bbd30-6933-41d6-9943-7a7f0c2e4fe8",
       "type": "container",
       "name": "basilisk_v13.0.0",
       "properties": [
@@ -35,7 +35,7 @@
   "components": null,
   "dependencies": [
     {
-      "ref": "d38d85c9-47d1-42ee-b54b-b3fcc7f45695",
+      "ref": "d56bbd30-6933-41d6-9943-7a7f0c2e4fe8",
       "dependsOn": null
     }
   ],
