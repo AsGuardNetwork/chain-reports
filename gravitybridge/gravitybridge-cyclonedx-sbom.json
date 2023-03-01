@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:69f1825c-6ba0-4614-b179-6cc936a687f5",
+  "serialNumber": "urn:uuid:f3738fab-3c89-45df-a3ae-4ac35ef0c16a",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-02-15T07:36:24+00:00",
+    "timestamp": "2023-03-01T11:53:18+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.37.3"
+        "version": "0.38.0"
       }
     ],
     "component": {
-      "bom-ref": "d224e4c1-8795-45e6-9d6b-32fb32057dc3",
+      "bom-ref": "9eb3de94-bf5f-45ee-ad27-2b1989a331b5",
       "type": "container",
       "name": "gravitybridge_v1.8.2",
       "properties": [
@@ -2659,7 +2659,7 @@
       ]
     },
     {
-      "bom-ref": "db747dc5-679c-4713-850a-e81666fccc24",
+      "bom-ref": "89d6bb8f-b70d-4ae9-9af7-b8d3ce8b0c8f",
       "type": "application",
       "name": "bin/gravity",
       "properties": [
@@ -2676,7 +2676,7 @@
   ],
   "dependencies": [
     {
-      "ref": "db747dc5-679c-4713-850a-e81666fccc24",
+      "ref": "89d6bb8f-b70d-4ae9-9af7-b8d3ce8b0c8f",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-beta.2",
         "pkg:golang/github.com/99designs/keyring@v1.1.6",
@@ -2806,9 +2806,9 @@
       ]
     },
     {
-      "ref": "d224e4c1-8795-45e6-9d6b-32fb32057dc3",
+      "ref": "9eb3de94-bf5f-45ee-ad27-2b1989a331b5",
       "dependsOn": [
-        "db747dc5-679c-4713-850a-e81666fccc24"
+        "89d6bb8f-b70d-4ae9-9af7-b8d3ce8b0c8f"
       ]
     }
   ],
