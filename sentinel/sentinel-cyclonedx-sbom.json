@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:86e7c744-0b60-4e4b-9f47-9a43947b75b2",
+  "serialNumber": "urn:uuid:14095251-565c-4f52-959d-269e8dc5cee1",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-01T11:47:30+00:00",
+    "timestamp": "2023-03-02T17:02:45+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.0"
+        "version": "0.38.1"
       }
     ],
     "component": {
-      "bom-ref": "aa78a124-f12f-41ec-84de-5f12d7c4aaa7",
+      "bom-ref": "91a39230-2800-40de-8f7d-f97e88be7a68",
       "type": "container",
       "name": "sentinel_v0.10.1",
       "properties": [
@@ -2134,7 +2134,7 @@
       ]
     },
     {
-      "bom-ref": "b8a62f90-c306-44e2-8513-c12d5e3a76d7",
+      "bom-ref": "95d7cdba-993b-49a8-8050-522d0f33cf3b",
       "type": "application",
       "name": "bin/sentinelhub",
       "properties": [
@@ -2151,7 +2151,7 @@
   ],
   "dependencies": [
     {
-      "ref": "b8a62f90-c306-44e2-8513-c12d5e3a76d7",
+      "ref": "95d7cdba-993b-49a8-8050-522d0f33cf3b",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-beta.2",
         "pkg:golang/github.com/99designs/keyring@v1.2.1",
@@ -2256,9 +2256,9 @@
       ]
     },
     {
-      "ref": "aa78a124-f12f-41ec-84de-5f12d7c4aaa7",
+      "ref": "91a39230-2800-40de-8f7d-f97e88be7a68",
       "dependsOn": [
-        "b8a62f90-c306-44e2-8513-c12d5e3a76d7"
+        "95d7cdba-993b-49a8-8050-522d0f33cf3b"
       ]
     }
   ],
