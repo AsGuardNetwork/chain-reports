@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:081809f1-ca50-4ada-9260-7b352e280bbc",
+  "serialNumber": "urn:uuid:be4bd67a-52b0-45cd-8d5e-e71f5b34d846",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-01T11:49:42+00:00",
+    "timestamp": "2023-03-02T17:04:56+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.0"
+        "version": "0.38.1"
       }
     ],
     "component": {
-      "bom-ref": "7904be48-2778-4b8f-9607-db4aa4a8d7e3",
+      "bom-ref": "fbe6a97b-2fdb-42e1-8643-797950c879ad",
       "type": "container",
       "name": "icad_v0.4.0",
       "properties": [
@@ -2575,7 +2575,7 @@
       ]
     },
     {
-      "bom-ref": "d3e6005d-b5db-4e4e-bbf7-4b29dfb328b5",
+      "bom-ref": "bf9adcb4-f6c3-4252-ae2f-e0e9ab46f3c0",
       "type": "application",
       "name": "bin/icad",
       "properties": [
@@ -2592,7 +2592,7 @@
   ],
   "dependencies": [
     {
-      "ref": "d3e6005d-b5db-4e4e-bbf7-4b29dfb328b5",
+      "ref": "bf9adcb4-f6c3-4252-ae2f-e0e9ab46f3c0",
       "dependsOn": [
         "pkg:golang/cloud.google.com/go@v0.100.2",
         "pkg:golang/cloud.google.com/go/compute@v1.6.1",
@@ -2718,9 +2718,9 @@
       ]
     },
     {
-      "ref": "7904be48-2778-4b8f-9607-db4aa4a8d7e3",
+      "ref": "fbe6a97b-2fdb-42e1-8643-797950c879ad",
       "dependsOn": [
-        "d3e6005d-b5db-4e4e-bbf7-4b29dfb328b5"
+        "bf9adcb4-f6c3-4252-ae2f-e0e9ab46f3c0"
       ]
     }
   ],
