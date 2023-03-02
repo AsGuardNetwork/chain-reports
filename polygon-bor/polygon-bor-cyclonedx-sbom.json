@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:ec89e89b-42ee-4ac4-9271-3b451da3ecbe",
+  "serialNumber": "urn:uuid:0a819b02-0cad-47fa-8603-8df1e44e82f2",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-01T12:43:57+00:00",
+    "timestamp": "2023-03-02T17:30:30+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.0"
+        "version": "0.38.1"
       }
     ],
     "component": {
-      "bom-ref": "b92233e1-2366-4579-bb5c-0f0897249e92",
+      "bom-ref": "a8e42bc3-7a12-4537-b7fa-bdd914c38616",
       "type": "container",
       "name": "polygon-bor_v0.3.4",
       "properties": [
@@ -2092,7 +2092,7 @@
       ]
     },
     {
-      "bom-ref": "1a24b76b-b545-436c-a7d7-048a8c1a957d",
+      "bom-ref": "4d548f85-a3d0-4743-b26d-850fc08879d0",
       "type": "application",
       "name": "bin/bor",
       "properties": [
@@ -2109,7 +2109,7 @@
   ],
   "dependencies": [
     {
-      "ref": "1a24b76b-b545-436c-a7d7-048a8c1a957d",
+      "ref": "4d548f85-a3d0-4743-b26d-850fc08879d0",
       "dependsOn": [
         "pkg:golang/github.com/burntsushi/toml@v1.1.0",
         "pkg:golang/github.com/jekamas/go-grpc-net-conn@v0.0.0-20220708155319-6aff21f2d13d",
@@ -2212,9 +2212,9 @@
       ]
     },
     {
-      "ref": "b92233e1-2366-4579-bb5c-0f0897249e92",
+      "ref": "a8e42bc3-7a12-4537-b7fa-bdd914c38616",
       "dependsOn": [
-        "1a24b76b-b545-436c-a7d7-048a8c1a957d"
+        "4d548f85-a3d0-4743-b26d-850fc08879d0"
       ]
     }
   ],
