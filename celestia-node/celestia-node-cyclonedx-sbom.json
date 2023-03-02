@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:e1d9fdf9-fb24-46fe-813e-49bfe7195dca",
+  "serialNumber": "urn:uuid:52546d15-4787-411d-8ece-49d87a6c21f5",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-01T12:01:15+00:00",
+    "timestamp": "2023-03-02T16:53:46+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.0"
+        "version": "0.38.1"
       }
     ],
     "component": {
-      "bom-ref": "aaa0a2e5-0915-471a-b2e1-390dd64b64ee",
+      "bom-ref": "06b630a9-586b-4d7d-8184-db535b0a24fc",
       "type": "container",
       "name": "celestia-node_v0.6.4",
       "properties": [
@@ -5620,7 +5620,7 @@
       ]
     },
     {
-      "bom-ref": "ca1dbb46-dcf5-4850-b3ba-f2121c80e2ff",
+      "bom-ref": "3cb29cba-b5b5-49ec-b1b4-2cd8aad06bac",
       "type": "application",
       "name": "bin/celestia",
       "properties": [
@@ -5637,7 +5637,7 @@
   ],
   "dependencies": [
     {
-      "ref": "ca1dbb46-dcf5-4850-b3ba-f2121c80e2ff",
+      "ref": "3cb29cba-b5b5-49ec-b1b4-2cd8aad06bac",
       "dependsOn": [
         "pkg:golang/cloud.google.com/go@v0.105.0",
         "pkg:golang/cloud.google.com/go/compute/metadata@v0.2.1",
@@ -5908,9 +5908,9 @@
       ]
     },
     {
-      "ref": "aaa0a2e5-0915-471a-b2e1-390dd64b64ee",
+      "ref": "06b630a9-586b-4d7d-8184-db535b0a24fc",
       "dependsOn": [
-        "ca1dbb46-dcf5-4850-b3ba-f2121c80e2ff"
+        "3cb29cba-b5b5-49ec-b1b4-2cd8aad06bac"
       ]
     }
   ],
