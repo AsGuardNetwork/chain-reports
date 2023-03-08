@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:498692b2-1a0a-48e6-a216-81bcdeb76d44",
+  "serialNumber": "urn:uuid:3e6dc375-04fa-4e98-b498-260d3364f337",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-02T17:20:16+00:00",
+    "timestamp": "2023-03-08T12:41:36+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.1"
+        "version": "0.38.2"
       }
     ],
     "component": {
-      "bom-ref": "deaa27bf-ca77-49f5-8e48-edb176478cd2",
+      "bom-ref": "74ae196f-4a7a-42c4-9fa9-f1518e9bc034",
       "type": "container",
       "name": "nomic_v3",
       "properties": [
@@ -35,7 +35,7 @@
   "components": [],
   "dependencies": [
     {
-      "ref": "deaa27bf-ca77-49f5-8e48-edb176478cd2",
+      "ref": "74ae196f-4a7a-42c4-9fa9-f1518e9bc034",
       "dependsOn": []
     }
   ],
