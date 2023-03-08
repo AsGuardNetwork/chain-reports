@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:9bbe00e9-b870-4cd5-a927-2d851c088e43",
+  "serialNumber": "urn:uuid:8e852c10-24d7-4d5f-be88-c262a868c382",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-02T17:31:50+00:00",
+    "timestamp": "2023-03-08T12:42:26+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.1"
+        "version": "0.38.2"
       }
     ],
     "component": {
-      "bom-ref": "bfbd7000-d20a-4e2f-9bae-a50ebd5414ad",
+      "bom-ref": "f63e78ea-f5aa-4945-a47c-4dbbfef8dfb2",
       "type": "container",
       "name": "ununifi_v1.0.0-beta.4",
       "properties": [
@@ -2050,7 +2050,7 @@
       ]
     },
     {
-      "bom-ref": "9b74173a-e713-4ad7-8093-b54c52c93b90",
+      "bom-ref": "2316dffc-081c-4ba3-84ae-f33192a28c02",
       "type": "application",
       "name": "bin/ununifid",
       "properties": [
@@ -2067,7 +2067,7 @@
   ],
   "dependencies": [
     {
-      "ref": "9b74173a-e713-4ad7-8093-b54c52c93b90",
+      "ref": "2316dffc-081c-4ba3-84ae-f33192a28c02",
       "dependsOn": [
         "pkg:golang/filippo.io/edwards25519@v1.0.0-beta.2",
         "pkg:golang/github.com/99designs/keyring@v1.1.6",
@@ -2168,9 +2168,9 @@
       ]
     },
     {
-      "ref": "bfbd7000-d20a-4e2f-9bae-a50ebd5414ad",
+      "ref": "f63e78ea-f5aa-4945-a47c-4dbbfef8dfb2",
       "dependsOn": [
-        "9b74173a-e713-4ad7-8093-b54c52c93b90"
+        "2316dffc-081c-4ba3-84ae-f33192a28c02"
       ]
     }
   ],
