@@ -1,19 +1,19 @@
 {
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:d08501e5-8951-4617-8fe1-cde1a0e8fcf4",
+  "serialNumber": "urn:uuid:c96fab46-8258-4512-a7a6-37258c9ff4f8",
   "version": 1,
   "metadata": {
-    "timestamp": "2023-03-02T17:15:23+00:00",
+    "timestamp": "2023-03-08T12:35:52+00:00",
     "tools": [
       {
         "vendor": "aquasecurity",
         "name": "trivy",
-        "version": "0.38.1"
+        "version": "0.38.2"
       }
     ],
     "component": {
-      "bom-ref": "9b8d602c-ae31-4e23-89cc-0c06328d51f8",
+      "bom-ref": "f49b3e74-1c03-488b-b356-3214b634f7f4",
       "type": "container",
       "name": "gaia_v8.0.1",
       "properties": [
@@ -2239,7 +2239,7 @@
       ]
     },
     {
-      "bom-ref": "87563d98-9c53-49c5-8246-e4142c3f9a42",
+      "bom-ref": "9de41151-60bf-47be-9aed-03a232af5746",
       "type": "application",
       "name": "bin/gaiad",
       "properties": [
@@ -2256,7 +2256,7 @@
   ],
   "dependencies": [
     {
-      "ref": "87563d98-9c53-49c5-8246-e4142c3f9a42",
+      "ref": "9de41151-60bf-47be-9aed-03a232af5746",
       "dependsOn": [
         "pkg:golang/cosmossdk.io/api@v0.2.6",
         "pkg:golang/cosmossdk.io/core@v0.5.1",
@@ -2366,9 +2366,9 @@
       ]
     },
     {
-      "ref": "9b8d602c-ae31-4e23-89cc-0c06328d51f8",
+      "ref": "f49b3e74-1c03-488b-b356-3214b634f7f4",
       "dependsOn": [
-        "87563d98-9c53-49c5-8246-e4142c3f9a42"
+        "9de41151-60bf-47be-9aed-03a232af5746"
       ]
     }
   ],
